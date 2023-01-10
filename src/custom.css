@@ -1,0 +1,28 @@
+body {
+    background-color: #301A4B;
+    text-align: center;
+}
+
+h1, h3 {
+    color: #FFEAEC;
+}
+
+button {
+    background-color: #6DB1BF;
+    color: #FFEAEC;
+    width: 150px;
+    height: 50px;
+    font-size: 18px;
+    margin-top: 20%;
+}
+
+.logo {
+    max-height: 100px;
+}
+
+.company-info {
+    margin-top: 2%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
