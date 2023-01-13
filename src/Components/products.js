@@ -2,10 +2,10 @@ import ProductCard from "./product_description";
 
 const Products = () => {
     return(
-        <div class='products'>
+        <div class='product_container'>
             <h3>Protucts 'ere</h3>
             <br />
-            <div class='header'>
+            <div class='product_card'>
                <ProductCard />
                <ProductCard />
                <ProductCard />
