@@ -1,9 +1,6 @@
 body {
     background-color: #301A4B;
     text-align: center;
-}
-
-h1, h3 {
     color: #FFEAEC;
 }
 
@@ -13,16 +10,24 @@ button {
     width: 150px;
     height: 50px;
     font-size: 18px;
-    margin-top: 20%;
+    margin-top: 2%;
 }
 
 .logo {
     max-height: 100px;
 }
 
-.company-info {
+.header {
     margin-top: 2%;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+}
+
+.sign_in_container {
+    max-height: 100px;
+}
+
+.landing_page {
+    margin-top: 5%;
 }
