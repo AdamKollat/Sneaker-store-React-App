@@ -1,16 +1,32 @@
-import { useState } from "react";
+import React from "react";
+import ReactDOM from "react-dom";
 
-// const [expand, setExpand] = useState(false);
-// const toggleExpand = () => setExpand(prevExpand => !prevExpand)
-// console.log(expand)
+const Welcome = (props) => {
+    return <h2>Welcome, {props.name}!</h2>
+} 
+
+const LogIn = () => {
+    return <button>Sign in</button>
+}
+
+const Greeting = (props) => {
+    const isLoggedIn = props.isLoggedIn;
+    const user = props.name;
+
+    if(isLoggedIn) {
+        return <Welcome name={user} />
+    } else {
+        return <LogIn />
+    }
+}
 
 const SignIn = () => {
     return (
-        <div class='sign_in_container'>
-            <button>Sign In</button>
-            <div><h4>Content to display</h4></div>
+        <div>
+            <Greeting isLoggedIn={true} name='Adam'/>
         </div>
     )
 }
+
 
 export default SignIn;
