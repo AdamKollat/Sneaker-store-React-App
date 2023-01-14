@@ -1,14 +1,16 @@
-import ProductCard from "./product_description";
+import ProductCard1 from "./product1";
+import ProductCard2 from "./product2";
+import ProductCard3 from "./product3";
 
 const Products = () => {
     return(
         <div class='product_container'>
-            <h3>Protucts 'ere</h3>
+            <h3>Top products:</h3>
             <br />
             <div class='product_card'>
-               <ProductCard />
-               <ProductCard />
-               <ProductCard />
+               <ProductCard1 />
+               <ProductCard2 />
+               <ProductCard3 />
             </div>
         </div>
     )
